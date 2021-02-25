@@ -1,0 +1,107 @@
+2021-02-25 12:20:32.125  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 15.0.1 on USGURSAHKHURAN8 with PID 11760 (C:\Users\sahkhurana\eclipse-workspace\spring-boot-project-main-OLD\target\classes started by sahkhurana in C:\Users\sahkhurana\eclipse-workspace\spring-boot-project-main-OLD)
+2021-02-25 12:20:32.140  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-25 12:20:32.280  INFO 11760 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\sahkhurana\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/sahkhurana/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-02-25 12:20:32.282  INFO 11760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-25 12:20:32.282  INFO 11760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-25 12:20:33.728  INFO 11760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-25 12:20:33.901  INFO 11760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 3 JPA repository interfaces.
+2021-02-25 12:20:35.238  INFO 11760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-25 12:20:35.260  INFO 11760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 12:20:35.261  INFO 11760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-25 12:20:35.608  INFO 11760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 12:20:35.609  INFO 11760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3325 ms
+2021-02-25 12:20:36.382  INFO 11760 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 12:20:36.496  INFO 11760 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-25 12:20:36.651  WARN 11760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-25 12:20:36.662  INFO 11760 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-02-25 12:20:37.081  INFO 11760 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-25 12:20:37.430  INFO 11760 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-25 12:20:37.439  WARN 11760 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-25 12:20:37.487  INFO 11760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-25 12:20:37.586  INFO 11760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-25 12:20:37.593  INFO 11760 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-25 12:20:37.959  INFO 11760 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-25 12:20:37.963  INFO 11760 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-25 12:20:38.008  INFO 11760 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-25 12:20:40.145  INFO 11760 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 12:20:40.168  INFO 11760 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-25 12:20:40.928  INFO 11760 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-25 12:20:40.949  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 9.838 seconds (JVM running for 11.526)
+2021-02-25 12:28:38.485  INFO 11760 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 12:28:38.486  INFO 11760 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 12:28:38.489  INFO 11760 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-02-25 12:28:38.581  INFO 11760 --- [http-nio-8090-exec-2] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:46:32.360  INFO 11760 --- [http-nio-8090-exec-4] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:47:37.319  INFO 11760 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-25 12:47:37.328  INFO 11760 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-25 12:47:37.951  WARN 11760 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory C:Derbydb-derby-10.15.2.0-binhr cannot be removed.
+2021-02-25 12:47:37.953  INFO 11760 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-25 12:47:37.961  INFO 11760 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-25 12:47:38.086  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Strt
+2021-02-25 12:47:38.319  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 15.0.1 on USGURSAHKHURAN8 with PID 11760 (C:\Users\sahkhurana\eclipse-workspace\spring-boot-project-main-OLD\target\classes started by sahkhurana in C:\Users\sahkhurana\eclipse-workspace\spring-boot-project-main-OLD)
+2021-02-25 12:47:38.320  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-25 12:47:39.208  INFO 11760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-25 12:47:39.285  INFO 11760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2021-02-25 12:47:39.605  INFO 11760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-25 12:47:39.607  INFO 11760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 12:47:39.607  INFO 11760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-25 12:47:39.771  INFO 11760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 12:47:39.772  INFO 11760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1437 ms
+2021-02-25 12:47:39.863  INFO 11760 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 12:47:39.902  INFO 11760 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-25 12:47:39.934  INFO 11760 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-02-25 12:47:39.937  WARN 11760 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-25 12:47:40.005  WARN 11760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-25 12:47:40.144  INFO 11760 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-25 12:47:40.146  INFO 11760 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-02-25 12:47:40.147  INFO 11760 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-25 12:47:40.367  INFO 11760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-25 12:47:40.418  INFO 11760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-25 12:47:40.421  INFO 11760 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-25 12:47:40.682  INFO 11760 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 12:47:40.682  INFO 11760 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-25 12:47:40.759  INFO 11760 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-25 12:47:40.764  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 2.646 seconds (JVM running for 1631.342)
+2021-02-25 12:47:40.768  INFO 11760 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-25 12:47:41.917  INFO 11760 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-25 12:47:41.919  INFO 11760 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-25 12:47:42.453  WARN 11760 --- [Thread-19] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory C:Derbydb-derby-10.15.2.0-binhr cannot be removed.
+2021-02-25 12:47:42.454  INFO 11760 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-02-25 12:47:42.455  INFO 11760 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-02-25 12:47:42.526  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Strt
+2021-02-25 12:47:42.645  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 15.0.1 on USGURSAHKHURAN8 with PID 11760 (C:\Users\sahkhurana\eclipse-workspace\spring-boot-project-main-OLD\target\classes started by sahkhurana in C:\Users\sahkhurana\eclipse-workspace\spring-boot-project-main-OLD)
+2021-02-25 12:47:42.650  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-25 12:47:43.205  INFO 11760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-25 12:47:43.283  INFO 11760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2021-02-25 12:47:43.588  INFO 11760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-25 12:47:43.589  INFO 11760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 12:47:43.591  INFO 11760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-25 12:47:43.759  INFO 11760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 12:47:43.760  INFO 11760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2021-02-25 12:47:43.885  INFO 11760 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 12:47:43.932  INFO 11760 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-25 12:47:43.966  INFO 11760 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-02-25 12:47:43.967  WARN 11760 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-25 12:47:44.083  WARN 11760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-25 12:47:44.100  INFO 11760 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-25 12:47:44.102  INFO 11760 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-02-25 12:47:44.107  INFO 11760 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-25 12:47:44.405  INFO 11760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-25 12:47:44.429  INFO 11760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-25 12:47:44.431  INFO 11760 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-25 12:47:44.512  INFO 11760 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 12:47:44.517  INFO 11760 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-25 12:47:44.601  INFO 11760 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-25 12:47:44.605  INFO 11760 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 2.071 seconds (JVM running for 1635.183)
+2021-02-25 12:47:44.613  INFO 11760 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-25 12:47:57.850  INFO 11760 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 12:47:57.851  INFO 11760 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 12:47:57.853  INFO 11760 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-02-25 12:47:57.878  INFO 11760 --- [http-nio-8090-exec-1] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:48:31.346  INFO 11760 --- [http-nio-8090-exec-4] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:49:31.840  INFO 11760 --- [http-nio-8090-exec-9] c.v.s.b.demo.service.DepartmentService   : saveEmployee service
+2021-02-25 12:49:36.781  INFO 11760 --- [http-nio-8090-exec-2] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:49:54.527  INFO 11760 --- [http-nio-8090-exec-6] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:50:13.878  INFO 11760 --- [http-nio-8090-exec-7] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:50:16.786  INFO 11760 --- [http-nio-8090-exec-10] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
+2021-02-25 12:56:39.842  INFO 11760 --- [http-nio-8090-exec-5] c.v.s.b.demo.service.DepartmentService   : getAllEmployees service
